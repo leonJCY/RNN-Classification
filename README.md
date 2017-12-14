@@ -16,6 +16,7 @@
 *This project is mainly for Chinese text. If it is applied directly to other languages, such as English, while not modifying the code, it is still character-based (ie, a single letter, punctuation, etc.). If you want to turn it into word-based (ie, English words, Chinese Words, etc.), you need to add the code about word segmentation, and modify the corresponding code, such as function TextLoader/transform and function TextLoader/preprocess in file utils.py and so on.*
 
 ## 运行方式
+ +  在根目录 mkdir save/
  + 命令行，运行train.py训练模型，运行test.py测试模型，所需参数用help查看。
  + 运行run.py文件，自行修改各项参数
 
